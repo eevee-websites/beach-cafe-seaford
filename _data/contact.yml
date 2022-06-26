@@ -1,0 +1,10 @@
+location:
+  address: 10N Nepean Highway, Seaford, VIC, Australia
+  google_maps: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3139.5834125560095!2d145.12279061744385!3d-38.103359499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x277ba7257157c7%3A0x6dcd2fb55d5d6f31!2sBeach%20Cafe%20Seaford!5e0!3m2!1sen!2sau!4v1655051848180!5m2!1sen!2sau
+  locale: en-AU
+
+socials:
+  - platform: Facebook
+    link: https://www.facebook.com/Beach-Cafe-Seaford-755487747890537/photos/?ref=page_internal
+  - platform: phone
+    link: tel:0387740470
