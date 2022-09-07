@@ -1,7 +1,9 @@
-- days: Weekdays
+- days: Mon - Tue
   open: 8:00 AM
   close: 4:00 PM
-- days: Weekends
+- days: Wed
+  open: Closed
+- days: Thu - Sun
   open: 8:00 AM
   close: 4:00 PM
 - days: Public holidays
