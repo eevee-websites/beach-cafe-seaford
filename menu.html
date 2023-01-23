@@ -14,16 +14,19 @@ sections:
           - name: Toast
             price: 8
             description: Sourdough, multigrain, English muffin, buckwheat & chia
+            diets:
+              - gfo
             options:
-            - name: GF
-              price: 2
+              - name: GF option
+                price: 2
           - name: Fruit Toast w/ Preserves
             price: 9
             description: Butter, jam
           - name: Superfood Bircher
             price: 18
-            gluten_free: true
-            vegan: true
+            diets:
+              - gf
+              - vg
             description: Quinoa, cranberries, goji berries, dried mango, chia seeds, coconut flakes, pumpkin kernels, almond  crumble, vanilla poached nashi pear, granny smith apple
           - name: Wild Waffles
             price: 20
@@ -31,43 +34,58 @@ sections:
           - name: Classic Benedict
             price: 20
             description: Poached eggs, your choice of triple smoked ham, smoked salmon or bacon, topped with hollandaise sauce on a toasted English muffin
+            diets:
+              - gfo
             options:
-            - name: GF option
-              price: 2
+              - name: GF option
+                price: 2
           - name: Avolanche
             price: 21
             description: Toasted multigrain, beetroot hummus, fresh avocado, blanched kale, cherry tomatoes, crumbled Persian feta, black sesame seeds, poached egg, pistachio dhukah, pomegranate kernals
+            diets:
+              - gfo
+              - vgo
             options:
-            - name: GF & VG option
-              price: 2
+              - name: GF & VG option
+                price: 2
           - name: Botanical Bowl
             price: 21
             description: Quinoa, baby broccolini, roasted maple glazed sweet potatoes and beetroot, blanched kale, avocado, toasted almond flakes, haloumi, tahini dip, pepitas, goji berries, dried mango
+            diets:
+              - vgo
+              - gfo
             options:
-            - name: GF & VG option
-              price: 2
+              - name: GF & VG option
+                price: 2
           - name: Sweet Potato Croquettes
             price: 22
             description: Eggplant babaganoush, sliced avocado, semi-dried tomatoes, grilled haloumi, roasted capsicum, rocket, chives
+            diets:
+              - vgo
             options:
               - name: VG option
                 price: 2
           - name: Chili Scrambled Eggs
             price: 22
             description: Julienne bacon, red & green chili, chives, parmesan, toasted sourdough, potato gems
+            diets:
+              - gfo
             options:
-            - name: GF option
-              price: 2
+              - name: GF option
+                price: 2
           - name: Foreshore Crepes
             price: 23
             description: Tasmanian smoked salmon, Persian feta, sliced avocado, rocket, beetroot hummus, black sesame seeds
-            gluten_free: true
+            diets:
+              - gf
           - name: Two Free Ranged Eggs on Toast
             price: 12
             description: Your choice of fried, scrambled, or poached
+            diets:
+              - gfo
             options:
-            - name: GF option
-              price: 2
+              - name: GF option
+                price: 2
       - name: Extras
         foods:
           - name:
@@ -90,6 +108,8 @@ sections:
           - name: Toasted Ham and Cheese Muffin
             price: 12
             description:
+            diets:
+              - gfo
             options:
               - name: GF option
                 price: 2
@@ -101,6 +121,9 @@ sections:
           - name: Botanical Bowl
             price: 21
             description: Quinoa, baby broccolini, roasted maple glazed sweet potatoes and beetroot, blanched kale, avocado, toasted almond flakes, haloumi, Tahini dip, pepitas, goji berries, dried mango
+            diets:
+              - gfo
+              - vgo
             options:
               - name: GF & VG option
                 price: 2
@@ -109,8 +132,9 @@ sections:
           - name: Noodle Salad
             price: 22
             description: Shredded green & red cabbage, julienne carrots, bean shoots, snow peas, red onion, green kale, mint, coriander, flat rice noodles, crushed peanuts, chili, lime & coriander dressing
-            gluten_free: true
-            vegan: true
+            diets:
+              - gf
+              - vg
             options:
               - name: Grilled Moroccan chicken
                 price: 6
@@ -119,12 +143,14 @@ sections:
             description: Char grilled beet pattie, lettuce, tomato, tasty cheese, bacon, pineapple, sliced beetroot, relish mayo, beer battered fries
           - name: Andhra Style Chicken
             price: 23
-            gluten_free: true
+            diets:
+              - gf
             description: South Indian stvle currv, boneless chicken marinated with yoghurt, lemon juice, tomatoes, herbs and spices, slow cooked & served with an aromatic basmati rice & a Bhaji.
           - name: Plantation Parma
             price: 23
-            gluten_free: true
-            vegan: true
+            diets:
+              - gf
+              - vg
             description: Crumbed eggplant & zucchini, roasted mushrooms, blanched kale, roasted peppers, beetroot hummus, coconut & cashew feta, sweet potato crisps
           - name: Crispy Lemon Pepper Calamari
             price: 26
@@ -135,9 +161,11 @@ sections:
           - name: Aegean Lamb Gyros Plate
             price: 27
             description: Marinated Greek style lamb, char grilled & served with a greek salad, tzatziki, pita bread and beer battered fries
+            diets:
+              - gfo
             options:
-            - name: GF option
-              price: 2
+              - name: GF option
+                price: 2
           - name: Fisherman's Combo
             price: 34
             description: Lemon pepper calamari, sweet chilli mussels, battered scallops, crumbed whiting, battered crab stick, char grilled tiger prawns, beer battered fries, creamy coleslaw
@@ -146,12 +174,15 @@ sections:
           - name: Fries
             price: 10
             description:
+            diets:
+              - gfo
             options:
               - name: GF option
                 price: 2
           - name: Sweet Potato Wedges
             price: 12
-            gluten_free: true
+            diets:
+              - gf
             description:
           - name: Wedges
             price: 12
