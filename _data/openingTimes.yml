@@ -1,9 +1,10 @@
-- days: Mon - Tue
+- days: Open every day
   open: 8:00 AM
   close: 4:00 PM
-- days: Wed
-  open: Temporarily closed
-- days: Thu - Sun
+- days: Kitchen open
+  open: 8:00 AM
+  close: 3:00 PM
+- days: Coffee and cakes
   open: 8:00 AM
   close: 4:00 PM
 - days: Public holidays
